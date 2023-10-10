@@ -1,17 +1,17 @@
--- import: <user_name>.github.io/<repo_name>
+-- import: omkar210.github.io/website
 
 
 
--- site-doc.doc-home: <repo_name> package
-site-title: `<repo_name>`
+-- site-doc.doc-home: website package
+site-title: `website`
 show-tabs: false
-github-url: <user_name>.github.io/<repo_name>
-current-package: <user_name>.github.io/<repo_name>
+github-url: omkar210.github.io/website
+current-package: omkar210.github.io/website
 
-Below are our default fastn `inherited` font types of <repo_name>.
+Below are our default fastn `inherited` font types of website.
 
 -- display-type:
-types: $<repo_name>.types
+types: $website.types
 
 
 -- end: site-doc.doc-home

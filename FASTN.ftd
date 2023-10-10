@@ -1,6 +1,6 @@
 -- import: fastn
 
--- fastn.package: <user_name>.github.io/<repo_name>
+-- fastn.package: omkar210.github.io/website
 
 -- fastn.dependency: fastn-community.github.io/site-doc
 -- fastn.dependency: fastn-community.github.io/code-block
@@ -23,4 +23,4 @@
 
 
 # GitHub
-  url: https://github.com/<user_name>/<repo_name>
+  url: https://github.com/omkar210/website
