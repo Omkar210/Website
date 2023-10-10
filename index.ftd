@@ -10,7 +10,7 @@
 
 
 -- site-doc.doc-home: website package
-site-title: `website`
+site-title: `Omkar's Website`
 show-tabs: false
 github-url: omkar210.github.io/website
 current-package: omkar210.github.io/website
