@@ -1,28 +1,28 @@
--- import: <user_name>.github.io/<repo_name>/custom
+-- import: omkar210.github.io/website/custom
 -- import: fastn-community.github.io/inter-font/assets as inter-assets
 
 ;; ⚠️fastn-builders::⚠️ before using this file please find and replace inter-font
 ;; with font package name you have given inside this package 
-;; `<user_name>.github.io/<repo_name>/FASTN.ftd file
+;; `omkar210.github.io/website/FASTN.ftd file
 ;; `<font-name>` replace with font you are using. 
 ;; remove these comments once you are done.
 
 
 
--- site-doc.doc-home: <repo_name> package
-site-title: `<repo_name>`
+-- site-doc.doc-home: website package
+site-title: `website`
 show-tabs: false
-github-url: <user_name>.github.io/<repo_name>
-current-package: <user_name>.github.io/<repo_name>
+github-url: omkar210.github.io/website
+current-package: omkar210.github.io/website
 
-This FTD font `<repo_name>` can be used for your ftd web projects. 
+This FTD font `website` can be used for your ftd web projects. 
 
-You can use this <repo_name> inside the `FTD` project. Follow below
+You can use this website inside the `FTD` project. Follow below
 instructions to use this font package.
 
--- site-doc.header: How to use <repo_name>?
+-- site-doc.header: How to use website?
 
-To use this <repo_name> inside your `ftd` web project, if you are
+To use this website inside your `ftd` web project, if you are
 using our [doc-site](https://github.com/fifthtry/doc-site) theme then you just
 have to pass types to `ds.page`
 
@@ -32,68 +32,68 @@ making a sandwich.
 -- cb.code: Add this to your FASTN.ftd
 lang: ftd
 
-\-- fastn.dependency: <user_name>.github.io/<repo_name>
+\-- fastn.dependency: omkar210.github.io/website
 
 -- site-doc.header: Next Step
 
-Now import `<repo_name>` inside `.ftd` file as shown below:
+Now import `website` inside `.ftd` file as shown below:
 
 -- cb.code:
 lang: ftd
 
-\-- import: <user_name>.github.io/<repo_name>
+\-- import: omkar210.github.io/website
 
 
 -- site-doc.header: Next Step
 
-add `<repo_name>` `types` to `ds.page` `types` attribute as shown
+add `website` `types` to `ds.page` `types` attribute as shown
 below:
 
 -- cb.code:
 lang: ftd
 
 \-- ds.page:
-types: $<repo_name>.types
+types: $website.types
 
 -- site-doc.header: Next Step
 
-Once you add `types: $<repo_name>.types` inside your `.ftd` file,
-`<repo_name>` will be added as `fastn` default typography to your
+Once you add `types: $website.types` inside your `.ftd` file,
+`website` will be added as `fastn` default typography to your
 `ds.page` and to all components you add inside `ds.page`.
 
 If you're not using `doc-site` theme and building your own `fastn` web theme.
-Then, add `<repo_name>` dependency into `FASTN.ftd` file.
+Then, add `website` dependency into `FASTN.ftd` file.
 
 -- cb.code:
 lang: ftd
 
-\-- fastn.dependency: <user_name>.github.io/<repo_name>
+\-- fastn.dependency: omkar210.github.io/website
 
 -- site-doc.header: Next Step
 
-Once you add above dependency, then import `<repo_name>` inside your
+Once you add above dependency, then import `website` inside your
 `.ftd` file:
 
 -- cb.code:
 lang: ftd
 
-\-- import: <user_name>.github.io/<repo_name>
+\-- import: omkar210.github.io/website
 
 -- site-doc.header: Next Step
 
-Done! `<repo_name>` is now added. Lets define a `page` component:
+Done! `website` is now added. Lets define a `page` component:
 
 -- cb.code:
 lang: ftd
 download: my-ds.ftd
 
-\-- import: <user_name>.github.io/<repo_name>
+\-- import: omkar210.github.io/website
 
 \-- component page:
 caption title:
 body body:
 children wrap:
-ftd.type-data types: $<repo_name>.types
+ftd.type-data types: $website.types
 
 \-- ftd.column:
 width: fill-container
@@ -132,7 +132,7 @@ In above code snippet we defined `page` component which has `types`, `title`,
 `body` and  `wrap` attributes.
 
 The `types` attribute used to pass a typography to it. In above example we have
-added `$<repo_name>.types` as default `ftd.type-data`. The
+added `$website.types` as default `ftd.type-data`. The
 `ftd.type-data` contains all `fastn` default `inherited` types.
 
 The `title` attribute will be used for adding `page` titles. 
@@ -202,7 +202,7 @@ downloaded, add previously downloaded `my-ds.ftd` and `types.ftd` inside
 name and run `fastn serve`, load localhost web page on browser.
 
 e.g. `http://127.0.0.1:8001/types` You will see the `page` component using
-`<repo_name>` `types` applied to `inherited` types.
+`website` `types` applied to `inherited` types.
 
 Done! isn't it simple? Try this and don't forget to jump on our [Discord](https://discord.gg/bucrdvptYd)
 
