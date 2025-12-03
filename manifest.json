@@ -1,0 +1,36 @@
+{
+  "files": {
+    "FASTN.ftd": {
+      "name": "FASTN.ftd",
+      "checksum": "D4DE33BE776388F67AAC329504A25F24122348304BE57BE96152AC62C0107327",
+      "size": 653
+    },
+    "LICENSE.md": {
+      "name": "LICENSE.md",
+      "checksum": "A95364C3842F2C439BD629F65E304A2850239B443596467254EE96E71CA213DD",
+      "size": 1498
+    },
+    "README.md": {
+      "name": "README.md",
+      "checksum": "4D397C118E9CDBC6E1A6CF2C728B89C014790B5B1DEB5B2B077B3F05D6E7A827",
+      "size": 676
+    },
+    "data.json": {
+      "name": "data.json",
+      "checksum": "C84CEB79C36757C34E52348C6961209A04704572A9461274C8392AE13B7DC486",
+      "size": 44
+    },
+    "fastn-typography.ftd": {
+      "name": "fastn-typography.ftd",
+      "checksum": "A7366859E13A73BF09AE6095A8F116E336C46F3170AA98AA498D1D273F539670",
+      "size": 8637
+    },
+    "index.ftd": {
+      "name": "index.ftd",
+      "checksum": "EB330B5D8F99CA21ED2E2E832A13969A5C7276F1E60E5D547ADDF693A659C0A9",
+      "size": 12824
+    }
+  },
+  "zip_url": "https://codeload.github.com/omkar210/website/zip/refs/heads/main",
+  "checksum": "8BA5587E691F7686E3F593F712D964F1D8C1BE04B71E210156E17DEE4C202D28"
+}
