@@ -17,7 +17,7 @@
     },
     "data.json": {
       "name": "data.json",
-      "checksum": "C84CEB79C36757C34E52348C6961209A04704572A9461274C8392AE13B7DC486",
+      "checksum": "35AA049F1C00C1A01C0CD6AD54D69CF9C0665E53925932AC5264B53622B574E7",
       "size": 44
     },
     "fastn-typography.ftd": {
@@ -32,8 +32,8 @@
     },
     "index.js": {
       "name": "index.js",
-      "checksum": "6E050750498FE6E578B442CAB0198A8B50CC30B48EFD899889E59EDC446A3120",
-      "size": 851
+      "checksum": "20576154E41ABE70ED8850A16133BC85B92EA85A5822C3947FDCCD085BF0D3A7",
+      "size": 1510
     },
     "node_modules/@kwsites/file-exists/CHANGELOG.md": {
       "name": "node_modules/@kwsites/file-exists/CHANGELOG.md",
@@ -2950,6 +2950,331 @@
       "checksum": "8BF6C4F414B123EA2A9375B91982882D01D8561CE7D12E3BB4F448C23359F040",
       "size": 1886
     },
+    "node_modules/random/dist/distributions/bates.d.ts": {
+      "name": "node_modules/random/dist/distributions/bates.d.ts",
+      "checksum": "E58552A22EC77D089725B34CACD844B7D4F976D324D65B628AF0214394E39D63",
+      "size": 131
+    },
+    "node_modules/random/dist/distributions/bernoulli.d.ts": {
+      "name": "node_modules/random/dist/distributions/bernoulli.d.ts",
+      "checksum": "AE00B7D4683901001863C846FE957B167AD442478CADBA4326B15826BF3834AE",
+      "size": 131
+    },
+    "node_modules/random/dist/distributions/binomial.d.ts": {
+      "name": "node_modules/random/dist/distributions/binomial.d.ts",
+      "checksum": "C230C180F3540B6B9D69ED9F17105680FBB2910ECE839D401D03AFBE2FFA7BDC",
+      "size": 143
+    },
+    "node_modules/random/dist/distributions/exponential.d.ts": {
+      "name": "node_modules/random/dist/distributions/exponential.d.ts",
+      "checksum": "21942D0683354311194FDB391263C098584A70808AAB2E10F8F318460D54AE05",
+      "size": 136
+    },
+    "node_modules/random/dist/distributions/geometric.d.ts": {
+      "name": "node_modules/random/dist/distributions/geometric.d.ts",
+      "checksum": "AE00B7D4683901001863C846FE957B167AD442478CADBA4326B15826BF3834AE",
+      "size": 131
+    },
+    "node_modules/random/dist/distributions/irwin-hall.d.ts": {
+      "name": "node_modules/random/dist/distributions/irwin-hall.d.ts",
+      "checksum": "E58552A22EC77D089725B34CACD844B7D4F976D324D65B628AF0214394E39D63",
+      "size": 131
+    },
+    "node_modules/random/dist/distributions/log-normal.d.ts": {
+      "name": "node_modules/random/dist/distributions/log-normal.d.ts",
+      "checksum": "2D08CF135B1FA5CDB675F8493F4329D58D88AC40427255754E29431E0B201E39",
+      "size": 148
+    },
+    "node_modules/random/dist/distributions/normal.d.ts": {
+      "name": "node_modules/random/dist/distributions/normal.d.ts",
+      "checksum": "2D08CF135B1FA5CDB675F8493F4329D58D88AC40427255754E29431E0B201E39",
+      "size": 148
+    },
+    "node_modules/random/dist/distributions/pareto.d.ts": {
+      "name": "node_modules/random/dist/distributions/pareto.d.ts",
+      "checksum": "811CB2AC896FBC9F54152DF07351AAB9260AC20DE848A5B9B80B321FAEA91CEE",
+      "size": 135
+    },
+    "node_modules/random/dist/distributions/poisson.d.ts": {
+      "name": "node_modules/random/dist/distributions/poisson.d.ts",
+      "checksum": "21942D0683354311194FDB391263C098584A70808AAB2E10F8F318460D54AE05",
+      "size": 136
+    },
+    "node_modules/random/dist/distributions/uniform-boolean.d.ts": {
+      "name": "node_modules/random/dist/distributions/uniform-boolean.d.ts",
+      "checksum": "6389F4872E2D08406B302E7401141E68FA20121665C133947FDBCBF9597A2E7D",
+      "size": 120
+    },
+    "node_modules/random/dist/distributions/uniform-int.d.ts": {
+      "name": "node_modules/random/dist/distributions/uniform-int.d.ts",
+      "checksum": "523BAD78ADF6791345FE54D7927186924135D5EAC99EB96145638C13DE848CB4",
+      "size": 147
+    },
+    "node_modules/random/dist/distributions/uniform.d.ts": {
+      "name": "node_modules/random/dist/distributions/uniform.d.ts",
+      "checksum": "523BAD78ADF6791345FE54D7927186924135D5EAC99EB96145638C13DE848CB4",
+      "size": 147
+    },
+    "node_modules/random/dist/generators/function.d.ts": {
+      "name": "node_modules/random/dist/generators/function.d.ts",
+      "checksum": "CC9C9EBFFBD34801C71318526B47C428D994F9427AF298D50CBEC3C9E2E85791",
+      "size": 346
+    },
+    "node_modules/random/dist/generators/math-random.d.ts": {
+      "name": "node_modules/random/dist/generators/math-random.d.ts",
+      "checksum": "57D5A4E40588E63ED12176AA0D5047076CED77ECE78CF4F413FE02FACA4C03E6",
+      "size": 213
+    },
+    "node_modules/random/dist/generators/xor128.d.ts": {
+      "name": "node_modules/random/dist/generators/xor128.d.ts",
+      "checksum": "293F77BFFDAD9C08910BA0B899D37091C25FF05A57BAD69DA00417EC03FCAF7E",
+      "size": 369
+    },
+    "node_modules/random/dist/index.d.ts": {
+      "name": "node_modules/random/dist/index.d.ts",
+      "checksum": "694CAB47AA6CF851DD1E7B85F6A278AADBF323AE628A83159CAD434F58B5736E",
+      "size": 80
+    },
+    "node_modules/random/dist/random.d.ts": {
+      "name": "node_modules/random/dist/random.d.ts",
+      "checksum": "693D45FFBBC5C5947312E02CEEFEBAC0E48676E21CD792F71394BBA54325FE39",
+      "size": 8565
+    },
+    "node_modules/random/dist/random.module.js": {
+      "name": "node_modules/random/dist/random.module.js",
+      "checksum": "69218724EA57C310BDE79EFD98E5385A64521EC479B5B915A084B33472551DE0",
+      "size": 17133
+    },
+    "node_modules/random/dist/random.module.js.map": {
+      "name": "node_modules/random/dist/random.module.js.map",
+      "checksum": "22858F1BCAEDA7178A5BA407759364202FA6ABE42F3DE855F8BC83067A48D8B9",
+      "size": 41360
+    },
+    "node_modules/random/dist/rng-factory.d.ts": {
+      "name": "node_modules/random/dist/rng-factory.d.ts",
+      "checksum": "0E733B38499705717A91D78C26941B9ECDE79A1B7405943314747758515F4C86",
+      "size": 319
+    },
+    "node_modules/random/dist/rng.d.ts": {
+      "name": "node_modules/random/dist/rng.d.ts",
+      "checksum": "46131834A937D66BE34EDE265EEB48374EC0B35BEC7F0511845B21E518D352A5",
+      "size": 408
+    },
+    "node_modules/random/dist/validation.d.ts": {
+      "name": "node_modules/random/dist/validation.d.ts",
+      "checksum": "5683046F0D5C8A714426EBE17B8F61AB5BE5F0E892CD6018329003184A1ED890",
+      "size": 326
+    },
+    "node_modules/random/license": {
+      "name": "node_modules/random/license",
+      "checksum": "7F1788A4CF32DAEEE11D63D6C38110EEB71788C26DF2D34947150786BD7D1F2E",
+      "size": 1071
+    },
+    "node_modules/random/package.json": {
+      "name": "node_modules/random/package.json",
+      "checksum": "E1E2DF31AD6298E34DBF11AC56A12D8FE629315C21EBD36B764EEA1D624443B5",
+      "size": 2246
+    },
+    "node_modules/random/readme.md": {
+      "name": "node_modules/random/readme.md",
+      "checksum": "CEB6253F1251DE4632C68C7A1A37B860491A7CB362EB747F0289AF38487301F5",
+      "size": 18467
+    },
+    "node_modules/seedrandom/Gruntfile.js": {
+      "name": "node_modules/seedrandom/Gruntfile.js",
+      "checksum": "029B33BC97999FBBA6541172F6137F703A6856B7C703067BF421D930CEE32C75",
+      "size": 2431
+    },
+    "node_modules/seedrandom/README.md": {
+      "name": "node_modules/seedrandom/README.md",
+      "checksum": "4F42A296EEE4F5AE3A8DADBA94C2B0B5FB57662B96B8749F4D5288D4629B6240",
+      "size": 11854
+    },
+    "node_modules/seedrandom/bower.json": {
+      "name": "node_modules/seedrandom/bower.json",
+      "checksum": "9015133AE6110A0051E2AD0F25DFED3C0A0848287DDAC18FFE25702F8A989DEC",
+      "size": 294
+    },
+    "node_modules/seedrandom/component.json": {
+      "name": "node_modules/seedrandom/component.json",
+      "checksum": "036DAE3FA0A1EC9F8E0582214B916BDD998931EDAD6D3B8C8BFB2E332A444B3A",
+      "size": 281
+    },
+    "node_modules/seedrandom/coverage/coverage.json": {
+      "name": "node_modules/seedrandom/coverage/coverage.json",
+      "checksum": "D113B5437F2605C7BC106360BD53EC98F5E2939F74DD3AD04585BEAE1B57EC78",
+      "size": 60989
+    },
+    "node_modules/seedrandom/coverage/lcov-report/base.css": {
+      "name": "node_modules/seedrandom/coverage/lcov-report/base.css",
+      "checksum": "3F876E51F0A46864FFA7665B4B7A1F5FB5F6F37FB6A28F014E2B12D82962C852",
+      "size": 5394
+    },
+    "node_modules/seedrandom/coverage/lcov-report/block-navigation.js": {
+      "name": "node_modules/seedrandom/coverage/lcov-report/block-navigation.js",
+      "checksum": "EDB452C6527294488A6DBED08CEE8B6E0BF107549400618DCE7B2860DEE40C80",
+      "size": 2387
+    },
+    "node_modules/seedrandom/coverage/lcov-report/index.html": {
+      "name": "node_modules/seedrandom/coverage/lcov-report/index.html",
+      "checksum": "A9D759822B1988DBC613584DBC28522C0F89DF774A0E336BB093D34935C38BED",
+      "size": 4468
+    },
+    "node_modules/seedrandom/coverage/lcov-report/prettify.css": {
+      "name": "node_modules/seedrandom/coverage/lcov-report/prettify.css",
+      "checksum": "EA3FE433F9450698CA8A230271688E7AEEC12F99C8A7EF6C94379ABB38F27823",
+      "size": 676
+    },
+    "node_modules/seedrandom/coverage/lcov-report/prettify.js": {
+      "name": "node_modules/seedrandom/coverage/lcov-report/prettify.js",
+      "checksum": "FA1B1E1B906DDCFA08B46F161C0F924F506E1A31B4F3E09B8CAAA2463EF52C18",
+      "size": 17590
+    },
+    "node_modules/seedrandom/coverage/lcov-report/seedrandom/index.html": {
+      "name": "node_modules/seedrandom/coverage/lcov-report/seedrandom/index.html",
+      "checksum": "4B0FBF83611D5A19E306951A98B06620892317AA2C43E318CE6E43085A0E5F50",
+      "size": 3806
+    },
+    "node_modules/seedrandom/coverage/lcov-report/seedrandom/lib/alea.js.html": {
+      "name": "node_modules/seedrandom/coverage/lcov-report/seedrandom/lib/alea.js.html",
+      "checksum": "50B41A09780A89E2736BB40F41E4C42F8AA1EE05D99EE17F776B048467C8BBB4",
+      "size": 16715
+    },
+    "node_modules/seedrandom/coverage/lcov-report/seedrandom/lib/index.html": {
+      "name": "node_modules/seedrandom/coverage/lcov-report/seedrandom/lib/index.html",
+      "checksum": "0773CC2E60FA13B13267C9880EE9882CA613BD1E49AFC79BAA73E7FF3484EA95",
+      "size": 7237
+    },
+    "node_modules/seedrandom/coverage/lcov-report/seedrandom/lib/tychei.js.html": {
+      "name": "node_modules/seedrandom/coverage/lcov-report/seedrandom/lib/tychei.js.html",
+      "checksum": "87725ABEB04322259E7FEC79A31054C4FCC031437887991450E8E91542D7E9C2",
+      "size": 14925
+    },
+    "node_modules/seedrandom/coverage/lcov-report/seedrandom/lib/xor128.js.html": {
+      "name": "node_modules/seedrandom/coverage/lcov-report/seedrandom/lib/xor128.js.html",
+      "checksum": "89B334F965265724158CCFD991F85B784BDF31D6CD9964476D6D22315C0B16E6",
+      "size": 12016
+    },
+    "node_modules/seedrandom/coverage/lcov-report/seedrandom/lib/xor4096.js.html": {
+      "name": "node_modules/seedrandom/coverage/lcov-report/seedrandom/lib/xor4096.js.html",
+      "checksum": "07BFC17034E7C8FC841ABEF830CBA2187096C88ECCFB0A530205FB21F5005AAD",
+      "size": 21219
+    },
+    "node_modules/seedrandom/coverage/lcov-report/seedrandom/lib/xorshift7.js.html": {
+      "name": "node_modules/seedrandom/coverage/lcov-report/seedrandom/lib/xorshift7.js.html",
+      "checksum": "D0EAAAA56429C8908C108378C4E2AA5C63935D8EF9BEC9372D365BC39E7C9E95",
+      "size": 14351
+    },
+    "node_modules/seedrandom/coverage/lcov-report/seedrandom/lib/xorwow.js.html": {
+      "name": "node_modules/seedrandom/coverage/lcov-report/seedrandom/lib/xorwow.js.html",
+      "checksum": "F243126C8397E4FF9C2382D52EFCA8B6C674A3347622CECB03F01ED1C7DF2D7E",
+      "size": 12628
+    },
+    "node_modules/seedrandom/coverage/lcov-report/seedrandom/seedrandom.js.html": {
+      "name": "node_modules/seedrandom/coverage/lcov-report/seedrandom/seedrandom.js.html",
+      "checksum": "F24B5AD5C5743DAA34242EB954649AA44026BC31AD0F58871091E6E21A8C5FC9",
+      "size": 35073
+    },
+    "node_modules/seedrandom/coverage/lcov-report/sort-arrow-sprite.png": {
+      "name": "node_modules/seedrandom/coverage/lcov-report/sort-arrow-sprite.png",
+      "checksum": "CC0509BB6793CE64F35B199D39FEA7BADA13ECC2D395A43957D0D8AAE4F05864",
+      "size": 209
+    },
+    "node_modules/seedrandom/coverage/lcov-report/sorter.js": {
+      "name": "node_modules/seedrandom/coverage/lcov-report/sorter.js",
+      "checksum": "928FC998C8157561C8680616ADA3061ADCCB5A0B0D13D14B7953411C351076B3",
+      "size": 5278
+    },
+    "node_modules/seedrandom/coverage/lcov.info": {
+      "name": "node_modules/seedrandom/coverage/lcov.info",
+      "checksum": "62326B9CD5969778EE6F690D0AD3AA52634249754CA8362C360CED08ECA59908",
+      "size": 10055
+    },
+    "node_modules/seedrandom/index.js": {
+      "name": "node_modules/seedrandom/index.js",
+      "checksum": "C77001C3283C239F721F8CC1C4243CB617F70F34AC5BCF2E5BFBE567127EAC97",
+      "size": 2110
+    },
+    "node_modules/seedrandom/lib/alea.js": {
+      "name": "node_modules/seedrandom/lib/alea.js",
+      "checksum": "9F821C9EDE583E1C1F1D3263D6D016D13D562768DE6C477D8262F7E8028A09CB",
+      "size": 3238
+    },
+    "node_modules/seedrandom/lib/alea.min.js": {
+      "name": "node_modules/seedrandom/lib/alea.min.js",
+      "checksum": "C6BEC7642CDFD839D44688C2646AE4B13B80FEC55A863A32ED631A9413D88EF8",
+      "size": 970
+    },
+    "node_modules/seedrandom/lib/crypto.js": {
+      "name": "node_modules/seedrandom/lib/crypto.js",
+      "checksum": "828C7F594D3CC0FE816C85AFDEBD419627B73484BC200E897B5A295BC7301935",
+      "size": 245
+    },
+    "node_modules/seedrandom/lib/tychei.js": {
+      "name": "node_modules/seedrandom/lib/tychei.js",
+      "checksum": "AD1D532FC0A55BDB9ED391E3FF79094CFB209A267A9268047B6BD019836E4112",
+      "size": 2525
+    },
+    "node_modules/seedrandom/lib/tychei.min.js": {
+      "name": "node_modules/seedrandom/lib/tychei.min.js",
+      "checksum": "E12205564A0CCA567D1D289000F707CF9BAEBE1745B9DED9099F2D9033236463",
+      "size": 861
+    },
+    "node_modules/seedrandom/lib/xor128.js": {
+      "name": "node_modules/seedrandom/lib/xor128.js",
+      "checksum": "3D3981EE149B3E519220A78289B51F5FDA4542500A19827A5B1BD12BB73FBA80",
+      "size": 1748
+    },
+    "node_modules/seedrandom/lib/xor128.min.js": {
+      "name": "node_modules/seedrandom/lib/xor128.min.js",
+      "checksum": "80D1053E5BAA01EDAFC3F07073FAB8E55F90E6E8E15011375D04D98276E3E63A",
+      "size": 737
+    },
+    "node_modules/seedrandom/lib/xor4096.js": {
+      "name": "node_modules/seedrandom/lib/xor4096.js",
+      "checksum": "8DA990A46FBF491BDB3D4775E1E92E75F6D9AE93F3FF22265995D370C90B30D0",
+      "size": 4559
+    },
+    "node_modules/seedrandom/lib/xor4096.min.js": {
+      "name": "node_modules/seedrandom/lib/xor4096.min.js",
+      "checksum": "4AE5F0A35F3632225299C6536AAC84442550FA49B08ACF3BF4C47B2CE9BFBAA9",
+      "size": 1140
+    },
+    "node_modules/seedrandom/lib/xorshift7.js": {
+      "name": "node_modules/seedrandom/lib/xorshift7.js",
+      "checksum": "66070D09F1DEE370F337C5DD6889591FB00598A07D8BA4B2E4DDCD15C5ED8B4B",
+      "size": 2418
+    },
+    "node_modules/seedrandom/lib/xorshift7.min.js": {
+      "name": "node_modules/seedrandom/lib/xorshift7.min.js",
+      "checksum": "65B1BCA117F86AA9F965A744C979E14CB46F5ECE2FD04371F5D6874EA94D057D",
+      "size": 969
+    },
+    "node_modules/seedrandom/lib/xorwow.js": {
+      "name": "node_modules/seedrandom/lib/xorwow.js",
+      "checksum": "5B12799F336EA73D0D07E522C1EDB9EADF05AE03D46C0694A6F71D005A7EBFAF",
+      "size": 1919
+    },
+    "node_modules/seedrandom/lib/xorwow.min.js": {
+      "name": "node_modules/seedrandom/lib/xorwow.min.js",
+      "checksum": "965CD5E28166A173C163A8C670AFE3C95127ACFB8B7841D61EB53B207D560B6E",
+      "size": 825
+    },
+    "node_modules/seedrandom/package.json": {
+      "name": "node_modules/seedrandom/package.json",
+      "checksum": "F93348642AF783CCA495E5A31A22DF5613CCF24CA167C9C4347416627A015A09",
+      "size": 1433
+    },
+    "node_modules/seedrandom/seedrandom.js": {
+      "name": "node_modules/seedrandom/seedrandom.js",
+      "checksum": "DF5431FA9BA4B311F182A046E60CDD36AE37A1A80F515D6E9B1F568528735047",
+      "size": 8602
+    },
+    "node_modules/seedrandom/seedrandom.min.js": {
+      "name": "node_modules/seedrandom/seedrandom.min.js",
+      "checksum": "D2EB17A05ADA2ABF19C8BCB1F0F1AE62BB6DA5D59A69DC6414CED08704A88CD1",
+      "size": 1631
+    },
     "node_modules/simple-git/dist/cjs/index.js": {
       "name": "node_modules/simple-git/dist/cjs/index.js",
       "checksum": "C777C33978A3ECB48702DDDD5A49EE709CAE69EB38608958A141F4DE20BF3960",
@@ -3532,15 +3857,15 @@
     },
     "package-lock.json": {
       "name": "package-lock.json",
-      "checksum": "FE297C08087A49AB66EB95880C44370DC9877DC9383260D0CC0C7C53404B9DB7",
-      "size": 3745
+      "checksum": "556C14E7E6A2D739D826F369A25E77BDC4955BC247025955EFA0FDB0579CB423",
+      "size": 4454
     },
     "package.json": {
       "name": "package.json",
-      "checksum": "4BA512D5F867D81A79A91F4DAF6864995F296F65871EF866A7447EDD9E7D3E4A",
-      "size": 606
+      "checksum": "9B146AF76CD30887399C84C3BBD5645C72B267218C158F4BDD03FAF294098300",
+      "size": 630
     }
   },
   "zip_url": "https://codeload.github.com/omkar210/website/zip/refs/heads/main",
-  "checksum": "2403E4FFE6D4C73611CC140012F20D1A29AA5B7161105B566E53FF41B1FA0282"
+  "checksum": "F99546055A05FF5FF14ACA1B92ED30C33B0448F0F0A3E543442A013C1708F5F9"
 }
