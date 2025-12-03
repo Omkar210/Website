@@ -4,21 +4,27 @@ const moment = require('moment');
 const simpleGit = require('simple-git');
 
 const FILE_PATH = './data.json';
-// Set the number of historical commits to create
-const COMMIT_COUNT = 10;
+// The number of days in the past to create commits for.
+const DAYS_IN_PAST = 365;
+// The maximum number of commits to create per day.
+const MAX_COMMITS_PER_DAY = 3;
 
-const makeCommits = async (n) => {
-  if (n === 0) return;
+const makeCommits = async (days, git) => {
+  if (days === 0) return;
 
-  for (let i = 0; i < n; i++) {
-    const git = simpleGit();
-    const x = random.int(0, 54);
-    const y = random.int(0, 6);
-    const date = moment().subtract(1, "y").add(1, "d").add(x, "w").add(y, "d").format();
-    const data = { date };
+  // Iterate backwards from today for the specified number of days.
+  for (let i = 0; i < days; i++) {
+    const date = moment().subtract(i, 'days');
+    const commitCount = random.int(1, MAX_COMMITS_PER_DAY);
 
-    await jsonfile.writeFile(FILE_PATH, data);
-    await git.add([FILE_PATH]).commit(`chore: historical commit ${i + 1}/${n}`, { '--date': date });
+    // Create a random number of commits for the current day.
+    for (let j = 0; j < commitCount; j++) {
+      const formattedDate = date.format();
+      const data = { date: formattedDate };
+
+      await jsonfile.writeFile(FILE_PATH, data);
+      await git.add([FILE_PATH]).commit(`chore: commit for ${date.format('YYYY-MM-DD')}`, { '--date': formattedDate });
+    }
   }
 };
 
@@ -34,7 +40,7 @@ async function main() {
     await git.add(FILE_PATH);
     await git.commit(`Initial commit for this run: ${timestamp}`, { '--date': timestamp });
 
-    await makeCommits(COMMIT_COUNT);
+    await makeCommits(DAYS_IN_PAST, git);
 
     console.log('Committing and pushing changes...');
     await git.push('origin', 'main', { '--force': null }); // Force push is required for rewriting history

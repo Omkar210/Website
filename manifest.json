@@ -17,7 +17,7 @@
     },
     "data.json": {
       "name": "data.json",
-      "checksum": "35AA049F1C00C1A01C0CD6AD54D69CF9C0665E53925932AC5264B53622B574E7",
+      "checksum": "3028DAB5B61C5D6A14A56E5792292D92D9B980231A212BA02DF75DBA762134BE",
       "size": 44
     },
     "fastn-typography.ftd": {
@@ -32,8 +32,8 @@
     },
     "index.js": {
       "name": "index.js",
-      "checksum": "20576154E41ABE70ED8850A16133BC85B92EA85A5822C3947FDCCD085BF0D3A7",
-      "size": 1510
+      "checksum": "5A518E3A410AF86A2E49994499EFA4345C2C50B847C87CA38467BB23E8FB93A9",
+      "size": 1806
     },
     "node_modules/@kwsites/file-exists/CHANGELOG.md": {
       "name": "node_modules/@kwsites/file-exists/CHANGELOG.md",
@@ -3867,5 +3867,5 @@
     }
   },
   "zip_url": "https://codeload.github.com/omkar210/website/zip/refs/heads/main",
-  "checksum": "F99546055A05FF5FF14ACA1B92ED30C33B0448F0F0A3E543442A013C1708F5F9"
+  "checksum": "514BAF21785F952513608767911EE28B54F0096EF8D195081A5988D84556C9A2"
 }
